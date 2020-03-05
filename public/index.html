@@ -1,43 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app">
+  <title>Omni food</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./normalize.css">
+  <link rel="stylesheet" type="text/css" href="./grid.css">
+  <link rel="stylesheet" type="text/css" href="./ionicons.min.css">
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+</body>
+<style>
+  @media only screen and (max-width:1200px) {
+    .header-hero {
+      width: 100%;
+      padding: 0 2%;
+    }
+
+    .row {
+      padding: 0 2%;
+    }
+  }
+
+  @media only screen and (max-width:1023px) {
+
+    body {
+      font-size: 18px;
+    }
+
+    .long-copy {
+      width: 80%;
+      margin: 10%;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .step-box {
+      margin-top: 10px;
+    }
+
+    .step-box:last-child {
+      margin-top: 30px;
+    }
+
+    .work-steps {
+      margin-bottom: 40px;
+    }
+
+    .work-step:last-of-type {
+      margin-bottom: 60px;
+    }
+
+    .app-screen {
+      width: 50%;
+    }
+
+    .contact-form {
+      width: 80%;
+    }
+
+    .city-feature {
+      font-size: 90%;
+    }
+
+    .plan-box {
+      width: 100%;
+      margin-left: 0%;
+    }
+
+    .plan-price {
+      font-size: 250%;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width:767px) {
+    body {
+      font-size: 16px;
+    }
+
+    section {
+      padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+      padding: 0 4%;
+    }
+
+    .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+    }
+
+
+    .last-div {
+      font-size: 15px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .box p {
+      font-size: 90%;
+      line-height: 145%;
+    }
+
+    .long-copy {
+      width: 100%;
+      margin-left: 0%;
+    }
+
+    .app-screen {
+      width: 40%;
+      margin: 0 30%;
+    }
+
+    h1 {
+      font-size: 180%;
+    }
+
+    h2 {
+      font-size: 130%;
+      margin-bottom: 0px;
+    }
+
+    .work-step div {
+      border: 2px solid #e67e22;
+      color: #e67e22;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      float: left;
+      padding: 5px;
+      font-size: 120%;
+      margin-right: 25px;
+    }
+
+    .work-step p {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 17px;
+    }
+
+  }
+
+
+
+  @media only screen and (max-width:480px) {
+    section {
+      padding: 25px 0;
+    }
+
+    .contact-form {
+      width: 100%;
+    }
+  }
+</style>
+
 </html>

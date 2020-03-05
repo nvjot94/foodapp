@@ -1,0 +1,45 @@
+.location-img
+{
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.box1 .icon-small {
+   
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+   
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -2px;
+
+}
+
+.box1  .ion-social-twitter:hover {
+    color:#00b9ff;
+}
+
+.city-feature
+{
+    margin-bottom: 10px;
+}
+
+.city-feature a:visited,
+.city-feature a:link{
+    color:#e67e22;
+    text-decoration:none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+    transition:  border 0.2s, color 0.2s;
+}
+
+.city-feature a:hover
+{
+    color:#555;
+    border-bottom: 1px solid transparent;
+    text-decoration:none;
+}
